@@ -1,0 +1,1 @@
+Plug 'gorodinskiy/vim-coloresque'

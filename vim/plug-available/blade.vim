@@ -1,0 +1,1 @@
+Plug 'xsbeats/vim-blade'
