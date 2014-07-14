@@ -1,5 +1,6 @@
 Plug 'scrooloose/syntastic'
 
+let g:syntastic_java_checkers = ['']
 let g:syntastic_html_tidy_ignore_errors = [
     \"trimming empty <i>",
     \"trimming empty <span>",

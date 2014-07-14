@@ -39,7 +39,6 @@ let config_files = [
     \ 'abbreviation.vim',
     \ 'function.vim',
     \ 'autocommand.vim',
-    \ 'filetype.vim',
     \ 'config.vim'
     \]
 

@@ -1,0 +1,23 @@
+priority -50
+
+snippet laramodel "Laravel 4 model" b
+class `!p
+snip.rv = re.match(r'.*(?=\.)', fn).group()
+` extends \Model {
+
+	protected $connection = '${1:connection}';
+	protected $table = '${2:table name}';
+	protected $primaryKey = '${3:primary key}';
+
+	public $timestamps = ${4:false};
+}
+endsnippet
+
+snippet laracon "Laravel 4 controller" b
+class `!p
+snip.rv = re.match(r'.*(?=\.)', fn).group()
+` extends \Controller {
+
+}
+endsnippet
+# vim:ft=snippets:
